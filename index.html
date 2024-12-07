@@ -1,0 +1,449 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        <title>FootLockRE</title>
+        <link rel="icon" href="img/icon.png" type="image/png">
+    </head>
+    <body>
+        <header>
+            <div id="menu-bar" class="fa fa-bars"></div>
+            <img src="./img/FootLockRE Logo.png" class="logo-head">
+            <nav class="navbar">
+                <a href="#home">Home</a>
+                <a href="#shoes">Shoes
+
+                </a>
+                <a href="#aboutus">About Us</a>
+                <a href="#events">Events</a>
+                <a href="#subscribe">Subscribe</a>
+            </nav>
+            <div class="icons">
+                <div class="search-bar" id="search-bar">
+                    <input type="text" id="searchInput" class="search-input" placeholder="Search shoes...">
+                    <div id="searchResults" class="search-results"></div>
+                </div>
+                <a href="checkout.html">
+                    <i class="material-icons-outlined shopping_cart"
+                        style="font-size: 4rem; margin-left: 1.5rem; color: white; align-items: center; justify-content: center;">shopping_cart</i>
+                    <span id="cart-count" class="cart-badge">0</span> 
+                </a>
+            </div>
+        </header>
+        <!--end header-->
+
+        <section class="home" id="home">
+            <div class="slide-container active">
+                <div class="slide">
+                    <div class="content">
+                        <span>Coming Soon</span>
+                        <h3>Nike Air Max 1</h3>
+                        <p>
+                            The first shoe to reveal Nike Air to the world gets elevated with Parisian-inspired details. 
+                            Add this to the tried-and-tested cushioning and the classic wavy mudguard and it's no wonder it has reigned supreme for so long.
+                        </p>
+                    </div>
+                    <div class="image">
+                        <img src="img/slide/nike-air-max-1-og.png" class="shoe">
+                    </div>
+                </div>
+            </div>
+            <div class="slide-container">
+                <div class="slide">
+                    <div class="content">
+                        <span>Coming Soon</span>
+                        <h3>Nike Air Max 90</h3>
+                        <p>
+                            Nothing as fly, nothing as comfortable, nothing as proven.
+                            The Nike Air Max 90 stays true to its OG running roots with the iconic Waffle sole, stitched overlays and classic TPU details.
+                            Classic colours celebrate your fresh look while Max Air cushioning adds comfort to the journey.
+                        </p>
+                    </div>
+                    <div class="image">
+                        <img src="img/slide/nike-air-max-90.png" class="shoe">
+                    </div>
+                </div>
+            </div>
+            <div class="slide-container">
+                <div class="slide">
+                    <div class="content">
+                        <span>Coming Soon</span>
+                        <h3>Nike Air Max Dawn</h3>
+                        <p>
+                            Rooted to sporty athletics DNA, the Air Max Dawn is thoughtfully crafted with Air cushioning to deliver a feel-good forecast for your day. 
+                            Soft synthetic suede and airy textile blend vintage running vibes with modern design. 
+                            The plush foam in the midsole slants at the heel for added energy while the outsole pattern gives your style traction.
+                        </p>
+                       
+                    </div>
+                    <div class="image">
+                        <img src="img/slide/nike-air-max-dawn.png" class="shoe">
+                    </div>
+                </div>
+            </div>
+            <div class="slide-container">
+                <div class="slide">
+                    <div class="content">
+                        <span>Coming Soon</span>
+                        <h3>Nike Metcon 6</h3>
+                        <p>
+                            The Nike Metcon is designed for all round fitness whether you love lifting in the gym, jumping into a HIIT class or are a CrossFit regular. 
+                            The Metcon 6 is built for functional fitness and offers uncompromised stability alongside durability.
+                        </p>
+                    </div>
+                    <div class="image">
+                        <img src="img/slide/nike-metcon-6.png" class="shoe">
+                    </div>
+                </div>
+            </div>
+
+            <div id="prev" class="fa fa-angle-left" onclick="prev();"></div>
+            <div id="next" class="fa fa-angle-right" onclick="next();"></div>
+        </section>
+        <!--end home-->
+        <section class="shoes" id="shoes">
+            <h1 class="heading">Shoes</h1>
+            <div class="box-container">
+                <div class="box">
+                    <div class="content">
+                        <img src="img/product4/1.jpg" alt="">
+                        <h3>Air Jordan Zion 1</h3>
+                        <div class="price">$200</div>
+                        <a href="#" class="btn add-to-cart">add to cart</a>
+                    </div>
+                </div>
+                <div class="box">
+                   <div class="content">
+                        <img src="img/product4/2.jpg" alt="">
+                        <h3>Air Jordan Zion Marion</h3>
+                        <div class="price">$299</div>
+                    <a href="#" class="btn add-to-cart">add to cart</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="content">
+                        <img src="img/product4/3.jpg" alt="">
+                        <h3>Jordan Zion 1 'ZNA'</h3>
+                        <div class="price">$399</div>
+                        <a href="#" class="btn add-to-cart">add to cart</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="content">
+                        <img src="img/product4/5.jpg" alt="">
+                        <h3>Pegasus 37</h3>
+                        <div class="price">$299</div>
+                        <a href="#" class="btn add-to-cart">add to cart</a>
+                    </div>
+                </div>
+                <div class="box">
+                   <div class="content">
+                        <img src="img/product4/7.png" alt="">
+                        <h3>SB Janoski Zoom</h3>
+                        <div class="price">$399</div>
+                        <a href="#" class="btn add-to-cart">add to cart</a>
+                    </div>
+                </div>
+                <div class="box">
+                   <div class="content">
+                        <img src="img/product4/8.png" alt="">
+                        <h3>SB Stefan Janoski</h3>
+                        <div class="price">$200</div>
+                        <a href="#" class="btn add-to-cart">add to cart</a>
+                    </div>
+                </div>
+            </div>
+
+            
+
+            <h1 class="heading-latest">Latest and <span class="popular">Popular Shoes</span></h1>
+            <div class="row">
+                <div class="image-container">
+                    <div class="small-image">
+                        <img src="img/product1/1.jpg" alt="" class="featured-image-1">
+                        <img src="img/product1/2.jpg" alt="" class="featured-image-1">
+                        <img src="img/product1/3.jpg" alt="" class="featured-image-1">
+                        <img src="img/product1/4.jpg" alt="" class="featured-image-1">
+                    </div>
+                    <div class="big-image">
+                        <img src="img/product1/1.jpg" alt="" class="big-image-1">
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Nike Blazer Mid '77 Vintage—classic</h3>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <p style="text-align: justify;">
+                        In the '70s, Nike was the new shoe on the block. So new in fact, we were still breaking into the basketball scene and testing prototypes on the feet of our local team. Of course, the design improved over the years, but the name stuck. 
+                        The Nike Blazer Mid '77 Vintage—classic since the beginning.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="image-container">
+                    <div class="small-image">
+                        <img src="img/product2/1.jpg" alt="" class="featured-image-2">
+                        <img src="img/product2/2.jpg" alt="" class="featured-image-2">
+                        <img src="img/product2/3.jpg" alt="" class="featured-image-2">
+                        <img src="img/product2/4.jpg" alt="" class="featured-image-2">
+                    </div>
+                    <div class="big-image">
+                        <img src="img/product2/1.jpg" alt="" class="big-image-2">
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Nike Blazer Mid '77 Premium</h3>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <p style="text-align: justify;">
+                        Styled for the '70s. Loved in the '80s. Classic in the '90s. Ready for the future. The Blazer Mid '77 delivers a timeless design that's easy to wear. 
+                        Leather in the upper gets updated with check accents, while exposed foam on the tongue and a special midsole finish make it look like you've just pulled them from the history books. Go ahead—perfect your outfit.
+                    </p>
+                
+                </div>
+            </div>
+            <div class="row">
+                <div class="image-container">
+                    <div class="small-image">
+                        <img src="img/product3/1.jpg" alt="" class="featured-image-3">
+                        <img src="img/product3/2.jpg" alt="" class="featured-image-3">
+                        <img src="img/product3/3.jpg" alt="" class="featured-image-3">
+                        <img src="img/product3/4.jpg" alt="" class="featured-image-3">
+                    </div>
+                    <div class="big-image">
+                        <img src="img/product3/1.jpg" alt="" class="big-image-3">
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Nike Blazer Mid '77 Canvas</h3>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <p style="text-align: justify;">
+                        Styled for the '70s. Loved in the '80s. Classic in the '90s. Ready for the future. The Blazer Mid '77 delivers a timeless design in monochromatic canvas and synthetic leather that's easy to style and easier to wear. 
+                        Its era-echoing upper breaks in beautifully and is paired with retro branding for a premium feel. This look is one for the history books.
+                    </p>
+                    
+                </div>
+            </div>
+        </section>
+        <!--end product-->
+        <section class="aboutus" id="aboutus">
+            <h1>About Us</h1>
+            <div class="content">
+                <div class="about__data">
+                <img src="./img/FootLockRE Logo.png" class="about_logo">
+                <p class="about__description">Thank you for your interest in FootLockRE. Our headquarters is located in Jakarta, Indonesia, and we're now celebrating over 30 years of great customer service. We're a family run business, which started as one store, but has grown to 4 locations along with our online store. 
+                        Simply stated, we're old fashioned when it comes to the way we treat our customers. We pride ourselves on making people happy.</p>
+                </div>
+
+            </div>
+        </section>
+        <!--end about us-->
+        <section class="events" id="events">
+            <div class="content">
+                <h1>Events</h1>
+            <div class="container">
+                <div class="item-container">
+                    <div class="img-container">
+                        <img src="./images/1.jpg" alt="Event image">
+                    </div>
+        
+                    <div class="body-container">
+                        <div class="overlay"></div>
+        
+                        <div class="event-info">
+                            <p class="title">Hugh's Shoe Auction</p>
+                            <div class="separator"></div>
+                            <p class="info">Bellmore, NY</p>
+                           
+        
+                            <div class="additional-info">
+                                <p class="info">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    Grand Central Terminal
+                                </p>
+                                <p class="info">
+                                    <i class="far fa-calendar-alt"></i>
+                                    Sat, Sep 19, 10:00 AM EDT
+                                </p>
+        
+                                <p class="info description">
+                                    Browse rare, vintage, original senakers for sale at auction with a 100% authencity guarantee!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+        
+                <div class="item-container">
+                    <div class="img-container">
+                        <img src="./images/3.jpg" alt="Event image">
+                    </div>
+        
+                    <div class="body-container">
+                        <div class="overlay"></div>
+        
+                        <div class="event-info">
+                            <p class="title">Sneaker Con</p>
+                            <div class="separator"></div>
+                            <p class="info">Singapore, SG</p>
+                           
+        
+                            <div class="additional-info">
+                                <p class="info">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    18 Orchard St., Singapore
+                                </p>
+                                <p class="info">
+                                    <i class="far fa-calendar-alt"></i>
+                                    Sun, Sep 20, 15:00 PM GMT+8
+                                </p>
+        
+                                <p class="info description">
+                                    Sneaker Con is a global travelling event for sneakerheads of all ages.
+                                    Buy, Sell, and Trade your sneakers here!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="item-container">
+                    <div class="img-container">
+                        <img src="./images/4.jpg" alt="Event image">
+                    </div>
+        
+                    <div class="body-container">
+                        <div class="overlay"></div>
+        
+                        <div class="event-info">
+                            <p class="title">Secret Stash</p>
+                            <div class="separator"></div>
+                            <p class="info">Jakarta, ID</p>
+        
+                            <div class="additional-info">
+                                <p class="info">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    Gelora Bung Karno, Jakarta
+                                </p>
+                                <p class="info">
+                                    <i class="far fa-calendar-alt"></i>
+                                    Sat, June 28, 11:00 AM GMT+7
+                                </p>
+        
+                                <p class="info description">
+                                    Sneakers represent so much from a person stye, secret stash provide you some sneaker
+                                    you haven't heard of.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+        <!--end events-->
+        
+        <section class="subscribe" id="subscribe">
+            <div class="content">
+                <h3>Subscribe</h3>
+                <p>Create your FootLockRE Member profile and get first access to the very best of FootLockRE products,
+                    inspiration and community.</p>
+        
+                <form action="" class="form" id="form">
+                    <div class="form-control">
+                        <label for="username">First Name</label>
+                        <input type="text" id="username" placeholder="Enter your name" autocomplete="off">
+                        <small>Error Message</small>
+                    </div>
+        
+                    <div class="form-control">
+                        <label for="phone">Phone Number</label>
+                        <input type="text" id="phone" placeholder="Enter your phone number" autocomplete="off">
+                        <small>Error Message</small>
+                    </div>
+        
+                    <div class="form-control">
+                        <label for="country">Country</label>
+                        <select id="country">
+                            <option value="" selected>Select a Country</option>
+                        </select>
+                        <small>Error Message</small>
+                    </div>
+        
+                    <div class="form-control">
+                        <label for="email">Email</label>
+                        <input type="text" id="email" placeholder="Enter your email" autocomplete="off">
+                        <small>Error Message</small>
+                    </div>
+        
+                    <input type="submit" value="Submit" class="btn">
+                </form>
+            </div>
+        </section>
+
+      
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col">
+                        <h4>company</h4>
+                        <ul>
+                            <li><a href="#">about us</a></li>
+                            <li><a href="#">our services</a></li>
+                            <li><a href="#">privacy policy</a></li>
+                            
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>get help</h4>
+                        <ul>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">shipping</a></li>
+                            <li><a href="#">returns</a></li>
+                            <li><a href="#">order status</a></li>
+                            <li><a href="#">payment options</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>follow us</h4>
+                        <div class="social-links">
+                            <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+                                <i class="fa-brands fa-facebook"></i>
+                            </a>
+                            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+                                <i class="fa-brands fa-twitter-square"></i>
+                            </a>
+                            <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+       </footer>
+        
+    </body>
+</html>
+
+<script src="js/script.js"></script>
