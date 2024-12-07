@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>FootLockRE [CheckOut]</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="checkoutLayout">
+            <div class="returnCart">
+                <a href="index.html"><i class="fas fa-arrow-left"></i>keep shopping</a>
+                <h1>List Product in Cart</h1>
+                <div class="list">
+
+                    <div class="item">
+                        <img src="img/slide/nike-air-max-1-og.png">
+                        <div class="info">
+                            <div class="name">PRODUCT 1</div>
+                            <div class="price">$22/1 product</div>
+                        </div>
+                        <div class="quantity">5</div>
+                        <div class="returnPrice">$433.3</div>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="right">
+                <h1>Checkout</h1>
+
+                <div class="form">
+                    <div class="group">
+                        <label for="fullname">Full Name</label>
+                        <input type="text" name="fullname" id="fullname">
+                        <small class="error-message" style="color:red;"></small>
+                    </div>
+
+                    <div class="group">
+                        <label for="email">Email</label>
+                        <input type="text" name="email" id="email">
+                        <small class="error-message" style="color:red;"></small>
+                    </div>
+
+                    <div class="group">
+                        <label for="address">Address</label>
+                        <input type="text" name="address" id="address">
+                        <small class="error-message" style="color:red;"></small>
+                    </div>
+
+                    <div class="group">
+                        <label for="phone">Phone Number</label>
+                        <input type="text" name="phone" id="phone">
+                        <small class="error-message" style="color:red;"></small>
+                    </div>
+
+                    <div class="group">
+                        <label for="pos">Pos Code</label>
+                        <input type="text" name="pos" id="pos">
+                        <small class="error-message" style="color:red;"></small>
+                    </div>
+                </div>
+                <div class="return">
+                    <div class="row">
+                        <div>Total Quantity</div>
+                        <div class="totalQuantity">70</div>
+                    </div>
+                    <div class="row">
+                        <div>Total Price</div>
+                        <div class="totalPrice">$900</div>
+                    </div>
+                </div>
+                <button id="checkoutButton" class="buttonCheckout">CHECKOUT</button>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/checkout.js"></script>
+
+</body>
+
+</html>
